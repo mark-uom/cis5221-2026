@@ -8,6 +8,13 @@ public class Calculator {
 
     public int times(int x, int y) { return (x * y); }
 
+    public int remainder(int x, int y) {
+        if (y == 0 ) {
+            return (0);
+        }
+        return x % y; 
+    }
+
     public int subtract(int x, int y) {
         return x - y;
     }

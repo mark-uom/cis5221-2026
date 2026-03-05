@@ -10,5 +10,11 @@ public class Calculator {
         if (y == 0 ) {
             return (0);
         }
-        return x % y; }
+        return x % y; 
+    }
+    
+    public int subtract(int x, int y) {
+        return x - y;
+    }
+
 }

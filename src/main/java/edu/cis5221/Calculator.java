@@ -23,6 +23,14 @@ public class Calculator {
         return x - y;
     }
 
+    // Overloaded method
+    public static int subtract(String numbers) {
+        String[] parts = numbers.split(",");
+        int x = Integer.parseInt(parts[0]);
+        int y = Integer.parseInt(parts[1]);
+        return x - y;
+    }
+
     public int times(int[] values) {
         int total = 1;
 

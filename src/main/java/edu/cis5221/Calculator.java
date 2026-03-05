@@ -19,4 +19,14 @@ public class Calculator {
         return x - y;
     }
 
+    public int times(int[] values) {
+        int total = 1;
+
+        for (int value : values) {
+            total *= value;
+        }
+
+        return total;
+    }
+
 }

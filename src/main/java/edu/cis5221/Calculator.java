@@ -46,8 +46,19 @@ public class Calculator {
                 max = value;
             }
         }
-
         return max;
     }
+
+    public int average(int[] arr) {
+        int sum = 0;
+
+        for (int value : arr) {
+            sum += value;
+        }
+
+        return sum / arr.length;
+    }
+
+
 
 }

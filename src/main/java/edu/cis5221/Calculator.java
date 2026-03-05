@@ -6,8 +6,18 @@ public class Calculator {
         return a + b;
     }
 
-        public int subtract(int x, int y) {
+    public int subtract(int x, int y) {
         return x - y;
+    }
+
+    public int times(int[] values) {
+        int total = 1;
+
+        for (int value : values) {
+            total *= value;
+        }
+
+        return total;
     }
 
 }

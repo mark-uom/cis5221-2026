@@ -32,5 +32,18 @@ public class Calculator {
     public double divide(int x, int y){
         return x/y;
     }
+    
+
+    public int max(int arr[]) {
+        int max = arr[0];
+
+        for (int value : arr) {
+            if (value > max) {
+                max = value;
+            }
+        }
+
+        return max;
+    }
 
 }

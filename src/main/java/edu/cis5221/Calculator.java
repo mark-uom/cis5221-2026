@@ -10,15 +10,31 @@ public class Calculator {
         return sum;
     }
 
+    public int times(int x, int y) { return (x * y); }
+
     public int remainder(int x, int y) {
         if (y == 0 ) {
             return (0);
         }
         return x % y; 
     }
-    
+
     public int subtract(int x, int y) {
         return x - y;
+    }
+
+    public int times(int[] values) {
+        int total = 1;
+
+        for (int value : values) {
+            total *= value;
+        }
+
+        return total;
+    }
+
+    public double divide(int x, int y){
+        return x/y;
     }
 
 }
